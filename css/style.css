@@ -56,12 +56,27 @@ ul li {
     margin: 20px;
     color:black;
     display:flex;
+    justify-content: center;
 }
 img {
     width:400px;
     height:240px;
+    margin-inline: 20px;
 }
+.imagetext {
+    display:flex;
+    justify-content: center;
+    margin:0px;
+}
+#images li {
+    text-align:center;
+}
+.cattext {
+    margin:25px;
+}
+.cattext p {
 
+}
 display:flex;
     justify-content: center;
     contain overflow
