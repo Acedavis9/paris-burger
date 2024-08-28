@@ -1,0 +1,35 @@
+
+.container {
+    width:100%;
+    height:200vh;
+    background-color: coral;
+}
+
+nav {
+    background-color: #f1a536;
+    height:110px;
+    display:flex;
+    align-items: center; /* Centers items vertically */
+    justify-content: space-between; /* Separates logo and nav items */
+    padding: 0 50px;
+    border-bottom: 2px solid white;
+}
+
+body {
+    background-color: mediumseagreen;
+    margin: 0;
+    padding: 0;
+}
+
+#paris {
+    height:120px;
+}
+ul li {
+    display:inline;
+    margin: 20px;
+    color:black;
+}    
+
+
+display:flex;
+    justify-content: center;
