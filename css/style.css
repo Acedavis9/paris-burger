@@ -29,7 +29,23 @@ ul li {
     margin: 20px;
     color:black;
 }    
-
+.mainimage {
+    height:560px;
+    width:100%;
+    background-image: url('/Users/acedavis/Desktop/project-folder/images/hero-image.jpg');
+    background-size: cover;
+}
+.week {
+    position: absolute; /* Positions it relative to .mainimage */
+    top: 70%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Adjusts the position to truly center */
+    color: black; /* Color of the text */
+    font-weight: bold; /* Make it bold */
+    background-color:white;
+    padding-inline:  20px;
+}
 
 display:flex;
     justify-content: center;
+    contain overflow
