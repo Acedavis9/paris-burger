@@ -22,7 +22,8 @@ body {
 }
 
 #paris {
-    height:120px;
+    height:80px;
+    width:200px
 }
 ul li {
     display:inline;
@@ -72,7 +73,8 @@ img {
     text-align:center;
 }
 .cattext {
-    margin:25px;
+    margin:25px 64px;
+    
 }
 .cattext p {
 
