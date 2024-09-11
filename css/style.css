@@ -1,16 +1,16 @@
 
 .container {
     width:100%;
-    height:200vh;
-    background-color: coral;
+    height:4000px;
+    background-color: rgb(218, 211, 209);
 }
 
 nav {
     background-color: #f1a536;
     height:110px;
     display:flex;
-    align-items: center; /* Centers items vertically */
-    justify-content: space-between; /* Separates logo and nav items */
+    align-items: center;
+    justify-content: space-between;
     padding: 0 50px;
     border-bottom: 2px solid white;
 }
@@ -31,35 +31,54 @@ ul li {
     color:black;
 }    
 .mainimage {
-    height:560px;
-    width:100%;
-    background-image: url('/Users/acedavis/Desktop/project-folder/images/hero-image.jpg');
-    background-size: cover;
+    height: 560px;
+    width: 100%;
+    background-image: url("../images/hero-image.jpg");
+    background-color: aqua;
+    position: relative;
 }
 .week {
-    position: absolute; /* Positions it relative to .mainimage */
-    top: 70%; /* Center vertically */
-    left: 50%; /* Center horizontally */
-    transform: translate(-50%, -50%); /* Adjusts the position to truly center */
-    color: black; /* Color of the text */
-    font-weight: bold; /* Make it bold */
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-weight: bold; 
     background-color:white;
     padding-inline:  20px;
 }
 .categories {
-    background-color:white;
-    height:600px;
-    width:100%;
-    position: absolute;
-    color:black;
+    background-color: white;
+    width: 100%;
+    padding: 20px 0;
+    color: black;
+    margin: 0; /* Ensure no extra margin */
+    position: relative;
 }
+.recipes {
+    background-color: rgb(218, 211, 209);
+    height:1000px;
+    width:100%;
+    position: relative;
+    color:black
+}
+.recipes img {
+    width:280x;
+    height:200px;
+    margin-inline: 20px;
+}
+ul#recipe-img {
+    display:flex;
+    justify-content: center;
+}
+
 #images {
     margin: 20px;
     color:black;
     display:flex;
     justify-content: center;
 }
-img {
+#images img {
     width:400px;
     height:240px;
     margin-inline: 20px;
@@ -81,4 +100,5 @@ img {
 }
 display:flex;
     justify-content: center;
-    contain overflow
+    contain overflow:;
+
