@@ -174,3 +174,72 @@ display:flex;
     margin-left: 100px;
     margin-bottom: 40px;
 }
+.bengal {
+    width: 95%;
+    margin: 0 auto;
+    height: auto;
+    background-color: white;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    flex-direction: column; /* Stack items vertically */
+}
+.burger {
+    width: 100%;
+    height: 280px;
+    background-color: white;
+    justify-content: center; /* Center horizontally */
+    color:black; /* sfdsfdsfsdf */
+    text-align: center;
+}
+.burger h1 {
+    font-size: 40px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+section {
+    background-color: white;
+    height:auto;
+}
+.checked {
+    color:#a63223;
+}
+.stars-reviews {
+    display: flex; /* Arrange items in a horizontal row */
+    align-items: center; /* Align items vertically in the center */
+    justify-content: center; /* Center the content */
+    margin-top: 10px; /* Adds some space above the stars and reviews */
+    gap: 10px; /* Adds space between stars and review text */
+}
+
+.stars {
+    display: flex; /* Ensure stars are in a row */
+}
+
+.reviews {
+    font-size: 14px; /* Adjust font size for reviews */
+    color: black; /* Set the color for the review text */
+    margin: 0; /* Remove default margin */
+}
+button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: #a63223;
+    border-radius: 20px;
+}
+.button-print {
+    margin: 20px;
+}
+.button-print i {
+    margin-left: 30px;
+    border: solid black 1px;
+    border-radius: 50%;
+    
+}
