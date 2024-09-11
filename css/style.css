@@ -37,6 +37,15 @@ ul li {
     background-color: aqua;
     position: relative;
 }
+.mainimage-recipe {
+    height: 560px;
+    width: 100%;
+    background-image: url("../images/bengal-burger.jpg");
+    background-color: aqua;
+    position: relative; 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .week {
     position: absolute;
     top: 70%;
@@ -150,3 +159,18 @@ display:flex;
     justify-content: center;
     contain overflow:;
 
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    th, td {
+        text-align: center;
+        padding-left: 40px;
+
+    }
+
+.time-table {
+    color: black;
+    margin-left: 100px;
+    margin-bottom: 40px;
+}
