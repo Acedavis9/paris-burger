@@ -1,4 +1,7 @@
 
+* {
+    font-family: "Roboto", sans-serif;
+}
 .container {
     width:100%;
     height:auto;
@@ -36,6 +39,7 @@ ul li {
     background-image: url("../images/hero-image.jpg");
     background-color: aqua;
     position: relative;
+    background-size: cover;
 }
 .mainimage-recipe {
     height: 560px;
@@ -61,7 +65,7 @@ ul li {
     width: 100%;
     padding: 20px 0;
     color: black;
-    margin: 0; /* Ensure no extra margin */
+    margin: 0;
     position: relative;
 }
 .recipes {
@@ -73,13 +77,13 @@ ul li {
 }
 ul#recipe-img li {
     display: flex;
-    flex-direction: column; /* Stack children vertically */
-    align-items: center; /* Center horizontally */
-    justify-content: flex-end; /* Align h3 to the bottom */
-    margin: 20px; /* Space between items */
-    height: 240px; /* Set height for equal-sized containers */
-    width: 280px; /* Set width for equal-sized containers */
-    position: relative; /* Allow absolute positioning inside */
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 20px;
+    height: 240px;
+    width: 280px;
+    position: relative;
 }
 
 .recipes img {
@@ -96,11 +100,11 @@ ul#recipe-img {
     margin: 0;
     text-align: center;
     background-color: white;
-    width: 100%; /* Full width of the container */
-    position: absolute; /* Position the heading absolutely at the bottom */
-    bottom: 0; /* Align to the bottom of the container */
+    width: 100%; 
+    position: absolute; 
+    bottom: 0;
     padding: 10px;
-    box-sizing: border-box; /* Include padding in width calculation */
+    box-sizing: border-box;
 }
 
 
@@ -180,16 +184,16 @@ display:flex;
     height: auto;
     background-color: white;
     display: flex;
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
-    flex-direction: column; /* Stack items vertically */
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column; 
 }
 .burger {
     width: 100%;
-    height: 280px;
+    height: 260px;
     background-color: white;
-    justify-content: center; /* Center horizontally */
-    color:black; /* sfdsfdsfsdf */
+    justify-content: center; 
+    color:black; 
     text-align: center;
 }
 .burger h1 {
@@ -205,21 +209,21 @@ section {
     color:#a63223;
 }
 .stars-reviews {
-    display: flex; /* Arrange items in a horizontal row */
-    align-items: center; /* Align items vertically in the center */
-    justify-content: center; /* Center the content */
-    margin-top: 10px; /* Adds some space above the stars and reviews */
-    gap: 10px; /* Adds space between stars and review text */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    gap: 10px;
 }
 
 .stars {
-    display: flex; /* Ensure stars are in a row */
+    display: flex;
 }
 
 .reviews {
-    font-size: 14px; /* Adjust font size for reviews */
-    color: black; /* Set the color for the review text */
-    margin: 0; /* Remove default margin */
+    font-size: 14px;
+    color: black;
+    margin: 0;
 }
 button {
     border: none;
@@ -241,5 +245,45 @@ button {
     margin-left: 30px;
     border: solid black 1px;
     border-radius: 50%;
-    
 }
+.quote {
+    background-color: rgb(218, 211, 209);
+    height: auto;
+    width: 80%;
+    display: flex; /* Enables Flexbox */
+    margin: 0 auto; /* Centers the div horizontally in its container */
+
+}
+.quote p {
+    margin:40px;
+    font-size: 25px;
+    font-style: bold;
+    margin-left: 130px;
+    margin-right: 130px;
+}
+.bengal-text {
+    background-color: white;
+    height: auto;
+    width: 78%;
+    display: flex; /* Enables Flexbox */
+    margin: 0 auto; /* Centers the div horizontally in its container */
+    color: black;
+}
+.ingredients {
+    width:50%;
+    height:auto;
+    font-size:18px;
+}
+.directions {
+    width:50%;
+    height:auto;
+}
+.directions ol li {
+    margin:20px;
+    font-size;
+}
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
