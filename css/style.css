@@ -2,6 +2,16 @@
 * {
     font-family: "Roboto", sans-serif;
 }
+p {
+    font-size:22px;
+}
+#bold {
+    font-family: "Roboto", sans-serif;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #575656;
+}
 .container {
     width:100%;
     height:auto;
@@ -16,6 +26,10 @@ nav {
     justify-content: space-between;
     padding: 0 50px;
     border-bottom: 2px solid white;
+}
+nav a {
+    text-decoration: none;
+    color: black;
 }
 
 body {
@@ -127,12 +141,15 @@ ul#recipe-img {
 #images li {
     text-align:center;
 }
-.cattext {
-    margin:25px 64px;
-    
+.catcontent .cattext {
+    margin-left: 120px;
+    margin-top:10px;
 }
 .cattext p {
-
+    margin-bottom: 0;
+}
+.cattext h1 {
+    padding-top:20px;
 }
 .where {
     background-color: white;
@@ -159,10 +176,6 @@ footer {
 p {
     color:black;
 }
-display:flex;
-    justify-content: center;
-    contain overflow:;
-
     table {
         width: 100%;
         border-collapse: collapse;
@@ -250,8 +263,8 @@ button {
     background-color: rgb(218, 211, 209);
     height: auto;
     width: 80%;
-    display: flex; /* Enables Flexbox */
-    margin: 0 auto; /* Centers the div horizontally in its container */
+    display: flex;
+    margin: 0 auto;
 
 }
 .quote p {
@@ -265,9 +278,10 @@ button {
     background-color: white;
     height: auto;
     width: 78%;
-    display: flex; /* Enables Flexbox */
-    margin: 0 auto; /* Centers the div horizontally in its container */
+    display: flex;
+    margin: 0 auto;
     color: black;
+    padding-bottom: 30px;
 }
 .ingredients {
     width:50%;
@@ -287,3 +301,6 @@ button {
     font-weight: 400;
     font-style: normal;
   }
+.cattext p {
+    width: 90%;
+}
